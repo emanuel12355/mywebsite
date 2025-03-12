@@ -3,7 +3,7 @@ import webDevelopmentImg from "../Firstpage/images/web-development.png";
 import Ellipse from "../Firstpage/Ellipse 180.png";
 function HeroSection() {
   return (
-    <Container sx={{ display: "flex", }}>
+    <Container sx={{ display: "flex",mt:"5%" }}>
       <Box sx={{ textAlign: "left", mt: "5%" }}>
         {/* Heading */}
         <Box sx={{ display: "flex", justifyContent: "left", gap: "0.5rem" }}>
@@ -66,7 +66,7 @@ function HeroSection() {
       <Box component="img" src={webDevelopmentImg} style={{ width: "40%", height: "auto", paddingLeft: "20px" }} alt="Web Development">
         {/* <img src={webDevelopmentImg}  /> */}
       </Box>
-      <Box component="img" src={Ellipse} style={{ width: "50px", position: 'absolute', top: '60%', zIndex: 1 }}>
+      <Box component="img" src={Ellipse} style={{ width: "50px", position: 'absolute', top: '61%', zIndex: 1 }}>
 
       </Box>
     </Container>
