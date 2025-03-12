@@ -1,6 +1,6 @@
 import { Icon, Stack } from "@mui/material"
-import Team from "./Firstpage/Team"
-import HeroSection from "./Firstpage/HeroSection"
+import Team from "./Components/Firstpage/Team"
+import HeroSection from "./Components/Firstpage/HeroSection"
 import Services from "./Components/Services"
 import Devloper from "./Components/Devloper"
 import Icons from "./Components/Icons"

@@ -69,7 +69,7 @@ function CaseStudySection() {
     alignItems: 'center',
     p: 3,
     mb: 3,
-    backgroundColor: '#E8F0FF',
+    backgroundColor: ' #F0FFF7',
     borderRadius: '12px',
     boxShadow: 3,
   }}
@@ -116,7 +116,7 @@ function CaseStudySection() {
     alignItems: 'center',
     p: 3,
     mb: 3,
-    backgroundColor: '#E8F0FF',
+    backgroundColor: ' #FFF4F4',
     borderRadius: '12px',
     boxShadow: 3,
   }}
@@ -158,7 +158,7 @@ function CaseStudySection() {
 
             {/* Bottom "Read more" link */}
             <Box sx={{ textAlign: "right", mt: 3 }}>
-                <Button sx={{  background: "linear-gradient(to right, #F76680, #57007B)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", fontWeight: "bold" }}>Read more case studies &gt;</Button>
+                <Button sx={{   WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", fontWeight: "bold" }}>Read more case studies &gt;</Button>
             </Box>
 
         </Container>

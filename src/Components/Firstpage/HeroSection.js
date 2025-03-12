@@ -1,6 +1,6 @@
 import { Box, Typography, Container, Button, Stack } from "@mui/material";
-import webDevelopmentImg from "../Firstpage/images/web-development.png";
-import Ellipse from "../Firstpage/Ellipse 180.png";
+import webDevelopmentImg from "./images/web-development.png";
+import Ellipse from "./Ellipse 180.png";
 function HeroSection() {
   return (
     <Container sx={{ display: "flex",mt:"5%" }}>

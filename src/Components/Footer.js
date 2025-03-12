@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Grid, Typography, Box, Link, IconButton } from "@mui/material";
 import { Facebook, Instagram, Twitter, LinkedIn } from "@mui/icons-material";
-import log from '../Firstpage/logo.png';
+import log from './Firstpage/logo.png';
 import google from '../Components/google-page-speed 1.png';
 
 export default function Footer() {
