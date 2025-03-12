@@ -4,7 +4,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <AppBar position="static" color="default" elevation={8} sx={{ borderBottom: 1, borderColor: "divider" }}>
+    <AppBar position="static" color="default" elevation={8} sx={{ borderBottom: 1, borderColor: "divider" , position: 'fixed'}}>
       <Toolbar sx={{ display: "flex", justifyContent: "space-between" }}>
         <Box sx={{display: 'flex', gap: '10px'}}>
           <Box component="img" src={logoImage} />

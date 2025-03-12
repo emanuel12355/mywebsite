@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Box, Typography, Card, CardContent, CardMedia } from "@mui/material";
 import mobileIcon from "../Components/Mobile_app_perspective_matte.png";
-import developerIcon from "../Components/Group 1.png";  
+import developerIcon from "../Components/Group 1.png";
 import softwareIcon from "../Components/Dashboard_perspective_matte.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -16,7 +16,7 @@ const Services = () => {
     };
 
     return (
-        <Box sx={{ backgroundColor: '#F9F9FF', marginBottom: '20px' }}>
+        <Box sx={{ backgroundColor: '#F9F9FF', marginBottom: '20px' , position: 'relative', zIndex: 2}}>
             {/* Heading */}
             <Box display="flex" flexDirection="column" alignItems="center">
                 <Typography mt={4} fontSize="35px" fontWeight="bold">
@@ -199,7 +199,7 @@ const Services = () => {
                 </Swiper>
             </Box>
 
-           
+
         </Box>
     );
 };
